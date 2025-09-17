@@ -31,7 +31,35 @@ function loginUsermsg (username) {
 // console.log(loginUsermsg("ujjawal"))
 
 
-function calculateprice (...num1){
-    return num1
+// function calculateprice (...num1){
+//     return num1
+// }
+// console.log(calculateprice(200,400,500));
+
+
+
+// const user = {
+//     userName:"ujjaawal",
+//     age:22,
+
+// }
+
+// function handleObject(anyobject){
+//     console.log(`UserName is ${anyobject.userName} and age is ${anyobject.age}`);
+    
+// }
+// // handleObject(user)
+
+
+// handleObject({
+//     userName:"sam",
+//     age:23
+// })
+
+
+const myNarr  = [200, 400,500,600]
+
+function returnSecondVslue(getArray){
+    return getArray[1]
 }
-console.log(calculateprice(200,400,500));
+console.log(returnSecondVslue(myNarr));
